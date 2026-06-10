@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block standalone/export & print variants from indexing
+Disallow: /*Standalone*
+Disallow: /*standalone*
+Disallow: /index-print
+
+Sitemap: https://envision-chiropractic.com/sitemap.xml
